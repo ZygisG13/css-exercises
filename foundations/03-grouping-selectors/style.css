@@ -1,16 +1,16 @@
 /*styles*/
 
-.button {
+.one, two {
     font-size: 28px;
     font-family: Helvetica, "Times New Roman" sans-serif;
 }
 
-.button.one {
+.one {
     background-color: black;
     color: white;
 
 }
 
-.button.two {
+.two {
     background-color: yellow;
 }
