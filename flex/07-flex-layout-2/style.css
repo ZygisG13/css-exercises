@@ -51,8 +51,8 @@ body {
 .container-card {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly; /*atsalyme sito nera*/
-  align-content: center;  /*atsalyme sito nera*/
+  /*justify-content: space-evenly; /*atsalyme sito nera*/
+  /*align-content: center;  /*atsalyme sito nera*/
   padding: 32px;
 }
 
