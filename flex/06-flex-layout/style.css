@@ -5,10 +5,14 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
   width: 600px;
+  margin-bottom: 16px;
 }
 
 button {
@@ -16,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -24,4 +29,40 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+ul {
+  list-style-type: none;
+  /*display: flex;  sitas ejo i sprendini*/ 
+}
+
+a {
+  text-decoration: none;
+}
+
+.header, .footer {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.footer {
+  justify-self: flex-end;
+  background: #eeeeee;
+}
+
+.right-links, .left-links {
+  display: flex;
+  margin: 0; /*sito nenaudojau*/
+  padding: 0; /*sito nenaudojau*/
+  /*justify-content: space-between; naudojau sita*/
+  gap: 16px;
+}
+
+.content {
+  /*flex: 1; sitas dadetas, as sprendziau su justify-content: space-between; body flexe*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
